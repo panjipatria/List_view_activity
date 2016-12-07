@@ -27,7 +27,7 @@ public class ListViewActivity extends Activity {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 String value = (String) listView.getItemAtPosition(i);
-                Toast.makeText(ListViewActivity.this, "No Product" +" "+ i +" "+ "Nama Product" +" "+ value, Toast.LENGTH_LONG).show();
+                Toast.makeText(ListViewActivity.this, "No Product" +" "+ (i+1) +" "+ "Nama Product" +" "+ value, Toast.LENGTH_LONG).show();
             }
         });
 
